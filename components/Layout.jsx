@@ -1,6 +1,7 @@
 import Head from "next/head.js";
 import React from "react";
-import Navbar from "./Navbar.jsx";
+import styled from "styled-components";
+import Navbar from "./Navbar/Navbar.jsx";
 
 const Layout = ({ children }) => {
     return (
